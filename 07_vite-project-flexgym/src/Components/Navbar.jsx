@@ -1,5 +1,4 @@
-// src/components/Navbar.jsx
-// src/components/Navbar.jsx
+
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -10,7 +9,7 @@ function Navbar() {
         <ul className="flex space-x-6">
           <li><Link to="/" className="hover:text-yellow-500">Home</Link></li>
           <li><Link to="/about" className="hover:text-yellow-500">About</Link></li>
-          <li><Link to="/services" className="hover:text-yellow-500">Services</Link></li>
+          <li><Link to="/services" className="hover:text-yellow-500">Packages</Link></li>
           <li><Link to="/contact" className="hover:text-yellow-500">Contact</Link></li>
           <li><Link to="/register" className="hover:text-yellow-500">Register</Link></li>
         </ul>

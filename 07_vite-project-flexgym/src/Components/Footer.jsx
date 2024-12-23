@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-4 text-center">
-      <p className="text-sm">&copy; 2024 Flex Gym Website. All rights reserved.</p>
+      <p className="text-sm">2024 Flex Gym Website. All rights reserved.</p>
       <div className="mt-2">
         <span className="mr-2">Follow us on:</span>
         <a 
